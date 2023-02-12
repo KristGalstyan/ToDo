@@ -2,7 +2,7 @@ import React from 'react';
 import { Delete } from '@mui/icons-material';
 
 function Card({ title, id, content, onDelete }) {
-  function handleClick(e) {
+  function handleClick() {
     onDelete(id);
   }
   return (
