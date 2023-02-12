@@ -59,7 +59,7 @@ function CreateArea({ onAdd }) {
         <Fab onClick={submitNote}>
           <Zoom
             in={isExpanded}
-            style={{ transitionDelay: isExpanded ? '200ms' : '0ms' }}
+            style={{ transitionDelay: isExpanded ? '400ms' : '0ms' }}
           >
             <AddIcon />
           </Zoom>
