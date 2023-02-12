@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header/Header';
 import Card from './components/Card/Card';
+import Footer from './components/Footer/Footer';
 import CreateArea from './components/CreateArea/CreateArea';
 import { useState } from 'react';
 
@@ -36,6 +37,7 @@ function App() {
           />
         );
       })}
+      <Footer />
     </div>
   );
 }
